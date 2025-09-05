@@ -1,0 +1,18 @@
+# pyproject.toml
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "alphazero-chess"
+version = "0.1.0"
+description = "AlphaZero-like chess engine (educational) — single-module layout"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Your Name" }]
+dependencies = []  # перенеси сюда зависимости из requirements.txt, если захочешь
+
+[tool.setuptools]
+# Скажем setuptools, что у нас одиночный модуль main.py в папке src
+py-modules = ["main"]
+package-dir = {"" = "src"}  # искать модули в src/

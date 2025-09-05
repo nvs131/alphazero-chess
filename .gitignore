@@ -4,3 +4,16 @@ __pycache__/
 .ipynb_checkpoints/
 .env
 .DS_Store
+
+# VSCode
+.vscode/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Optional
+*.spec
+.coverage
+htmlcov/
